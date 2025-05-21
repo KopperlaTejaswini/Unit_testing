@@ -1,16 +1,15 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.15)
 
 set(This Example)
-
 project(${This} C CXX)
 
 set(CMAKE_C_STANDARD 99)
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 enable_testing()
 
-# add_subdirectory(googletest)
 include(FetchContent)
 FetchContent_Declare(
   googletest
@@ -28,5 +27,6 @@ set(Sources
 add_library(${This} STATIC ${Sources} ${Headers})
 
 add_subdirectory(test)
+
 
 
