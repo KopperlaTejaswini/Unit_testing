@@ -26,34 +26,34 @@ TEST(ExampleTests_T, mirror_fold1)
 
 
 
-// /*Mirror Selection is LEFT*/
-// TEST(ExampleTests_T, mirror_selection)
-// {
-//       int ignition_swt = 1;
-//       int Fold_Unfold_Mirror = 1;
-//       int selection_Mirror = 1;//1 for LEFT Mirror
-//       int result = 1;
-//       EXPECT_EQ(result, (ignition_swt, Fold_Unfold_Mirror, selection_Mirror));
-// }
+/*Mirror Selection is LEFT*/
+TEST(ExampleTests_T, mirror_selection)
+{
+      int ignition_swt = 1;
+      int Fold_Unfold_Mirror = 1;
+      int selection_Mirror = 1;//1 for LEFT Mirror
+      int result = 1;
+      EXPECT_EQ(result, (ignition_swt, Fold_Unfold_Mirror, selection_Mirror));
+}
 
-// TEST(ExampleTests_T, mirror_selection1)
-// {
-//       int ignition_swt = 1;
-//       int Fold_Unfold_Mirror = 1;
-//       int selection_Mirror = 1;//1 for LEFT Mirror
-//       int result = 0;
-//       EXPECT_NE(result, (ignition_swt, Fold_Unfold_Mirror, selection_Mirror));
-// }
+TEST(ExampleTests_T, mirror_selection1)
+{
+      int ignition_swt = 1;
+      int Fold_Unfold_Mirror = 1;
+      int selection_Mirror = 1;//1 for LEFT Mirror
+      int result = 0;
+      EXPECT_NE(result, (ignition_swt, Fold_Unfold_Mirror, selection_Mirror));
+}
 
-// /*Mirror Selection is RIGHT*/
-// /*TEST(ExampleTests_T, mirror_selection1)
-// {
-//       int ignition_swt = 1;
-//       int Fold_Unfold_Mirror = 1;
-//       int selection_Mirror = 2;
-//       int result = 2;
-//       EXPECT_EQ(result, (ignition_swt, Fold_Unfold_Mirror, selection_Mirror));
-// }*/
+/*Mirror Selection is RIGHT*/
+/*TEST(ExampleTests_T, mirror_selection1)
+{
+      int ignition_swt = 1;
+      int Fold_Unfold_Mirror = 1;
+      int selection_Mirror = 2;
+      int result = 2;
+      EXPECT_EQ(result, (ignition_swt, Fold_Unfold_Mirror, selection_Mirror));
+}*/
 
 // /*Mirror Control is UP */
 // TEST(ExampleTests_T, mirror_control)
