@@ -9,7 +9,8 @@ enum ignition_switch {OFF, ACC, ON, START};
 enum fold_unfold_mirror_switch {FOLD = 0, UNFOLD = 1};
 enum selection_mirror_switch {NEUTRAL = 0, LEFT = 1, RIGHT = 2};
 enum control_mirror_switch {UP = 0, DOWN = 1, LEFT_CONTROL = 2, RIGHT_CONTROL = 3};
- 
+
+
 int Fold_Unfold_Mirror, selection_Mirror, control_Mirror;
 int ignition_swt;
  
